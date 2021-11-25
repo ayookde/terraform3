@@ -7,6 +7,6 @@ resource "aws_vpc" "wjkim_vpc" {
   enable_dns_hostnames = true 
   enable_dns_support = true 
   tags = {
-    "Name" = "wjkim-vpc"
+    "Name" = "wjkim01-vpc"
   }
   }
